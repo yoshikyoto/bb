@@ -1,11 +1,13 @@
 # PATH
 export PATH=$PATH:~/bin
 
+
 # command
 alias la='ls -aG'
 alias l='ls'
 alias dir='la -la'
 alias rm='rm -i'
+
 
 # application
 alias safari='open -a safari'
@@ -24,7 +26,7 @@ alias facebook='open https://www.facebook.com/'
 
 
 # edit some files
-alias bashrc='emacs ~/.bashrc'
+alias bashrc='emacs ~/bin/.bashrc'
 
 
 # git

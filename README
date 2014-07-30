@@ -1,1 +1,3 @@
-README
+You must edit ~/.bash_profile
+
+add "source ~/bin/.bashrc

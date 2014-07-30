@@ -30,6 +30,7 @@ alias bashrc='emacs ~/bin/.bashrc'
 
 
 # git
+alias add='git add --all'
 alias commit='git commit -am'
 alias b='git branch'
 alias co='git checkout'
