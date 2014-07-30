@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DATESTR='%Y%m%d'
+emacs DATASTR+$1
