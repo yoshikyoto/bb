@@ -8,5 +8,5 @@ DATESTR=`date '+%Y%m%d'`
 if [ "$1" = "list" ]; then
   ls ~/Documents/memo/
 else
-  emacs ~/Document/memo/$1
+  emacs ~/Documents/memo/$1
 fi

@@ -1,12 +1,11 @@
 # PATH
 export PATH=$PATH:~/bin
 
-
 # command
 alias la='ls -aG'
 alias l='ls'
 alias dir='la -la'
-alias rm='rm -i'
+alias rmi='rm -i'
 
 
 # application
@@ -33,8 +32,15 @@ alias bashrc='emacs ~/bin/.bashrc'
 alias add='git add --all'
 alias commit='git commit -am'
 alias b='git branch'
+alias branch='git branch'
 alias co='git checkout'
+alias checkout='git checkout'
 alias push='git push'
 
 # kuins proxy
-# alias kuinsproxy='export http://proxy.kuins
+alias kuins_proxy_http='export http_proxy="http://proxy.kuins.net:8080/"'
+alias kuins_proxy_https='export https_proxy="https://proxy.kuins.net:8080/"'
+
+
+# ssh
+alias ssh_utakatanet='ssh yoshi-serber@utakatanet.dip.jp'

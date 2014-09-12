@@ -1,4 +1,12 @@
 #!/bin/bash
 
-DATESTR='%Y%m%d'
-emacs DATASTR+$1
+# get date string
+DATESTR=`date '+%Y%m%d'`
+
+#echo $DATESTR
+
+if [ "$1" = "list" ]; then
+  ls ~/Documents/memo/
+else
+  emacs ~/Document/memo/$1
+fi
