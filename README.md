@@ -66,4 +66,5 @@ Mac向けの設定だが、見ればだいたいわかる&amp;あまり重要で
 
 `e = emacsclient -t`
 
+-t するとターミナル上で起動する(-nw と同じ)。これで起動しないとなぜか日本語が入力できなくなる。  
 emacsの方の設定とかについては <https://github.com/yoshikyoto/emacs>
