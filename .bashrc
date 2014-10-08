@@ -1,7 +1,7 @@
 # PATH
 export PATH=$PATH:~/bin
 
-# command
+# alias for directory managemant
 alias la='ls -aG'
 alias l='ls'
 alias dir='la -la'
@@ -24,10 +24,6 @@ alias cybozu='open http://133.3.251.58/cybozu/ag.cgi'
 alias facebook='open https://www.facebook.com/'
 
 
-# edit some files
-alias bashrc='emacs ~/bin/.bashrc'
-
-
 # git
 alias add='git add --all'
 alias commit='git commit -am'
@@ -41,6 +37,9 @@ alias push='git push'
 alias kuins_proxy_http='export http_proxy="http://proxy.kuins.net:8080/"'
 alias kuins_proxy_https='export https_proxy="https://proxy.kuins.net:8080/"'
 
-
 # ssh
 alias ssh_utakatanet='ssh yoshi-serber@utakatanet.dip.jp'
+
+
+# emacs
+alias e='emacsclient -t'
