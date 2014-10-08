@@ -40,6 +40,16 @@ PATH に ~/bin を追加している。
   * i はディレクトリ削除していいか確認する引数
   * rm = rm -i とするのは良くないらしいのでこのような形にしているが、もっといい方法はないか。普通にrmで誤爆しそう。
 
+
+
+## その他ショートカットエイリアス
+
+* resource = source ~/.bash_profile
+  * Mac 用の設定になってしまうかも。
+  * FIXME: bash_profile じゃなくて .bashrc を直接見に行った方がいいかも
+
+
+
 ## application と web page に関係するエイリアス
 
 Mac向けの設定だが、見ればだいたいわかる&amp;あまり重要でないため省略
@@ -64,7 +74,11 @@ Mac向けの設定だが、見ればだいたいわかる&amp;あまり重要で
 
 ## emacs に関する設定
 
-`e = emacsclient -t`
+* `e = emacsclient -t`
 
 -t するとターミナル上で起動する(-nw と同じ)。これで起動しないとなぜか日本語が入力できなくなる。  
 emacsの方の設定とかについては <https://github.com/yoshikyoto/emacs>
+
+* `ec = 'emacs --batch -Q -f batch-byte-compile'`
+
+elisp のバッチバイトコンパイルのショートカッチエイリアス

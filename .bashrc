@@ -7,6 +7,9 @@ alias l='ls'
 alias dir='la -la'
 alias rmi='rm -i'
 
+# another shortcut
+alias resource='source ~/.bash_profile'
+
 
 # application
 alias safari='open -a safari'
@@ -43,3 +46,4 @@ alias ssh_utakatanet='ssh yoshi-serber@utakatanet.dip.jp'
 
 # emacs
 alias e='emacsclient -t'
+alias ec='emacs --batch -Q -f batch-byte-compile'
