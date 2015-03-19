@@ -1,5 +1,6 @@
 # PATH
 export PATH=$PATH:~/bin
+alias jsc="/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc"
 
 # alias for directory managemant
 alias la='ls -aG'
@@ -29,10 +30,12 @@ alias facebook='open https://www.facebook.com/'
 
 # git
 alias add='git add --all'
-alias commit='git commit -am'
+alias c='git commit -a'
+alias commit='git commit -a'
 alias b='git branch'
 alias branch='git branch'
 alias co='git checkout'
+alias cob='git checkout -b'
 alias checkout='git checkout'
 alias push='git push'
 
@@ -46,4 +49,6 @@ alias ssh_utakatanet='ssh yoshi-serber@utakatanet.dip.jp'
 
 # emacs
 alias e='emacsclient -t'
+alias ee='emacsclient -t ~/.emacs.d/init.el'
+alias eb='emacsclient -t ~/bin/.bashrc'
 alias ec='emacs --batch -Q -f batch-byte-compile'

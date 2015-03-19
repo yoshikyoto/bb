@@ -72,7 +72,7 @@ Mac向けの設定だが、見ればだいたいわかる&amp;あまり重要で
 * ssh_utakatanet
 
 
-## emacs に関する設定
+## emacs に関するエイリアス
 
 * `e = emacsclient -t`
 
